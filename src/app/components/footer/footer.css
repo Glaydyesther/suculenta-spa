@@ -1,0 +1,15 @@
+.site-footer {
+  background: black;/* rosa oscuro a blanco */
+  font-size: 0.9rem;
+  color: #ffffff;
+  padding: 2rem 0;
+}
+
+.footer-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}

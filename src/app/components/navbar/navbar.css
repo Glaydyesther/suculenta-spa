@@ -1,0 +1,43 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin-top: 100px; /* espacio para ambas barras fijas */
+}
+
+/* Barra superior */
+.top-bar {
+  background: linear-gradient(to right, #6a0dad, #ffffff);
+  padding: 10px 15px;
+  font-size: 0.85rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+/* Navbar principal */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  position: fixed;
+  top: 40px; /* justo debajo de la barra superior */
+  width: 100%;
+  z-index: 1090;
+}
+
+/* Logo y espaciador */
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.spacer {
+  flex: 1;
+}
